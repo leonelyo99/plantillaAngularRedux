@@ -1,6 +1,6 @@
 import { createReducer, on } from '@ngrx/store';
 import { increase, decrease, multiply, divide, reset } from '../actions/counter.actions';
-import { INITIAL_COUNTER_STATE } from '../constants/initial.state.constant';
+import { INITIAL_COUNTER_STATE } from '../constants/initialState.constant';
 
 /**
  * reduce where the state modification is performed

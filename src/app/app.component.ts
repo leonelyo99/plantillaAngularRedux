@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Store } from '@ngrx/store';
 import * as actions from './actions/counter.actions';
 import { AppState } from './interfaces/app.reducers.interface';
-import { INITIAL_COUNTER_STATE } from './constants/initial.state.constant';
+import { INITIAL_COUNTER_STATE } from './constants/initialState.constant';
 
 @Component({
   selector: 'app-root',
